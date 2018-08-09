@@ -10,5 +10,6 @@ def validate_certificate(url):
 	if CertChecker(url).check() == True:
 		return {'validatecertificate': url}
 
+
 if __name__ == "__main__":
     app.run(debug=True)
